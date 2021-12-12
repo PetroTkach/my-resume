@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petro Tkach</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,900;1,400;1,500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -18,93 +18,80 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
-  <body>
-    <header class="container header">
-      <div>
-        <h1>Petro Tkach</h1>
-        <h3>Front-End Developer</h3>
-      </div>
+  <body class="container">
+    <aside>
+      <img src="./images/Face.jpg" alt="my face" width="300" />
+      <h2>PROFILE</h2>
+      <p>Hello! My name is Petro Tkach. I am a student of GoIt Academy.</p>
+      <h2>SOFT SKILLS</h2>
       <ul>
-        <li>
-          <a href="mailto:petro.tka4444@gmail.com">petro.tka4444@gmail.com</a>
-        </li>
-        <li><a href="tel:+380634219183">+38 063 42 19 183</a></li>
+        <li>Scrum</li>
+        <li>Agile</li>
+        <li>GTD</li>
+        <li>Teamwork</li>
+        <li>Responsible</li>
+        <li>Developed logical thinking</li>
       </ul>
-    </header>
-    <main>
-      <section class="container">
-        <div>
-          <p>Hello! My name is Petro Tkach. I am a student of GoIt Academy</p>
-          <ul>
-            <li><button>Tech Skills</button></li>
-            <li><button>Soft Skills</button></li>
-            <li><button>Portfolio</button></li>
-            <li><button>Contact</button></li>
-          </ul>
-        </div>
-        <img src="." alt="My foto" />
-      </section>
-      <section class="container">
-        <h2>Tech Skills</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>GIT</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Node.js</li>
-        </ul>
-      </section>
-      <section class="container">
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Scrum</li>
-          <li>Agile</li>
-          <li>GTD</li>
-          <li>Teamwork</li>
-          <li>Responsible</li>
-          <li>Developed logical thinking</li>
-        </ul>
-
-        <h2>Languades</h2>
-        <ul>
-          <li>English</li>
-          <li>Ukraine</li>
-          <li>Russian</li>
-        </ul>
-      </section>
-      <section class="container">
-        <h2>Portfolio</h2>
-        <ul>
-          <li><a href=""></a>HTML5 + SCSS3 project</li>
-          <li><a href=""></a>HTML5 + SCSS3 command project(hero)</li>
-        </ul>
-      </section>
-    </main>
-    <footer class="container">
+      <h2>LANGUADES</h2>
       <ul>
-        <li><a href=""></a>linkedIn</li>
-        <li><a href=""></a>facebook</li>
-        <li><a href=""></a>Insta</li>
-        <li><a href=""></a>Github</li>
+        <li>English</li>
+        <li>Ukraine</li>
+        <li>Russian</li>
       </ul>
+    </aside>
+    <section>
+      <div class="hero">
+        <h1 class="hero__title">
+          PETRO <span class="hero__title--sn">TKACH</span>
+        </h1>
+        <h3 class="hero__text">Front-End Developer</h3>
 
-      <address>
-        <ul>
-          <li>
-            <a
-              href="https://goo.gl/maps/jhZWXdkVCQgXn3Kd8"
-              target="_blank"
-              rel="noopener noferrer"
-              >Lviv, Malogolskivska street</a
+        <ul class="hero__list">
+          <li class="hero__item">
+            <a href="tel:+380634219183">P: +38 063 42 19 183</a>
+          </li>
+          <li class="hero__item">
+            <a href="mailto:petro.tka4444@gmail.com"
+              >E: petro.tka4444@gmail.com</a
             >
           </li>
-          <li>
-            <a href="mailto:petro.tka4444@gmail.com">petro.tka4444@gmail.com</a>
-          </li>
-          <li><a href="tel:+380634219183">+38 063 42 19 183</a></li>
         </ul>
-      </address>
-    </footer>
+      </div>
+      <div>
+        <h2>TECHNICAL SKILLS</h2>
+        <ul>
+          <li>
+            <h3>HTML5 + CSS3</h3>
+            <p>
+              basics, semantics, A11Y CSS: basics, flexbox, adaptive and mobile
+              first css, BEM, SASS
+            </p>
+          </li>
+          <li>
+            <h3>JavaScript</h3>
+            <p>In process</p>
+          </li>
+          <li>
+            <h3>React</h3>
+            <p>In process</p>
+          </li>
+          <li>
+            <h3>Node.Js</h3>
+            <p>In process</p>
+          </li>
+          <li>
+            <h3>Basics and tools</h3>
+            <p>
+              VsCode, git, github, npm, babel Practical team work skills in real
+              conditions, team communication skills
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Portofolio</h2>
+        <a href="https://petrotkach.github.io/goit-markup-hw-08/">WebStudio</a>
+      </div>
+    </section>
   </body>
 </html>

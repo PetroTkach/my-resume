@@ -2,7 +2,6 @@
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: yellowgreen;
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
@@ -20,5 +19,6 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
   }
 }
