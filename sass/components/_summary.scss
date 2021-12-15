@@ -1,0 +1,72 @@
+.summary {
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.summary__name {
+  font-weight: 800;
+  color: var(--bg-title-text-color);
+  @media screen and (min-width: 480px) {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 60px;
+    line-height: 50px;
+  }
+}
+
+.summary__job {
+  font-weight: bold;
+  color: var(--title-text-color);
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.summary__title {
+  font-weight: bold;
+  color: var(--bg-title-text-color);
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.summary__text {
+  font-weight: 500;
+  color: var(--text-color);
+  @media screen and (min-width: 480px) {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,37 @@
+.languades {
+  font-family: Montserrat;
+  font-style: normal;
+  color: var(--accent-color);
+}
+
+.languades__title {
+  font-weight: bold;
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+.languades__list {
+  font-weight: 500;
+  @media screen and (min-width: 480px) {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
