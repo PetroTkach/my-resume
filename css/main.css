@@ -30,6 +30,24 @@
   }
 }
 
+@media screen and (min-width: 480px) {
+  .section {
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 60px;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -76,6 +94,31 @@ textarea {
   font-style: normal;
 }
 
+@media screen and (max-width: 767.99px) {
+  .summary {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .summary {
+    padding-top: 40px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 68px;
+    border-bottom: 5px solid var(--bg-title-text-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .summary {
+    padding-top: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 80px;
+  }
+}
+
 .summary__name {
   font-weight: 800;
   color: var(--bg-title-text-color);
@@ -116,6 +159,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .summary__job {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -123,6 +167,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .summary__job {
+    margin-top: 40px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -142,6 +187,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .summary__title {
+    margin-top: 28px;
     font-size: 15px;
     line-height: 25px;
   }
@@ -149,6 +195,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .summary__title {
+    margin-top: 60px;
     font-size: 24px;
     line-height: 25px;
   }
@@ -168,6 +215,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .summary__text {
+    margin-top: 1px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -175,14 +223,86 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .summary__text {
+    margin-top: 36px;
     font-size: 19px;
     line-height: 25px;
   }
 }
 
+.mob-summary {
+  font-family: Montserrat;
+  font-style: normal;
+  background-color: var(--accent-color);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  border-bottom: 5px solid var(--title-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .mob-summary {
+    display: none;
+  }
+}
+
+.mob-summary__name {
+  font-weight: 800;
+  color: var(--bg-title-text-color);
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.mob-summary__job {
+  font-weight: bold;
+  color: var(--title-text-color);
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mob-summary__title {
+  font-weight: bold;
+  color: var(--bg-title-text-color);
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-left: 63px;
+}
+
+.mob-summary__text {
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-left: 63px;
+  margin-right: 63px;
+}
+
 .contact {
   font-family: Montserrat;
   font-style: normal;
+}
+
+@media screen and (max-width: 767.99px) {
+  .contact {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact {
+    margin-top: 60px;
+    margin-left: 78px;
+  }
 }
 
 .contact__title {
@@ -225,6 +345,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .contact__list {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -232,6 +353,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .contact__list {
+    margin-top: 35px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -242,10 +364,67 @@ textarea {
   text-decoration: none;
 }
 
+.mob-contact {
+  background-color: var(--bg-title-text-color);
+  font-family: Montserrat;
+  font-style: normal;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 63px;
+  border-top: 5px solid var(--title-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .mob-contact {
+    display: none;
+  }
+}
+
+.mob-contact__title {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.mob-contact__list {
+  font-weight: 500;
+  color: var(--accent-color);
+  font-size: 15px;
+  line-height: 17px;
+  margin-top: 15px;
+}
+
+.mob-contact__link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
 .skills {
   font-family: Montserrat;
   font-style: normal;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 480px) {
+  .skills {
+    margin-top: 45px;
+    margin-left: 63px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    margin-top: 24px;
+    margin-left: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills {
+    margin-top: 60px;
+    margin-left: 78px;
+  }
 }
 
 .skills__title {
@@ -279,6 +458,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .skills__list {
+    margin-top: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -286,6 +466,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .skills__list {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -293,6 +474,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .skills__list {
+    margin-top: 35px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -302,6 +484,27 @@ textarea {
   font-family: Montserrat;
   font-style: normal;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 480px) {
+  .languades {
+    margin-top: 45px;
+    margin-left: 63px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .languades {
+    margin-top: 24px;
+    margin-left: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .languades {
+    margin-top: 60px;
+    margin-left: 78px;
+  }
 }
 
 .languades__title {
@@ -335,6 +538,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .languades__list {
+    margin-top: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -342,6 +546,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .languades__list {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -349,6 +554,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .languades__list {
+    margin-top: 35px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -357,6 +563,28 @@ textarea {
 .projects {
   font-family: Montserrat;
   font-style: normal;
+}
+
+@media screen and (min-width: 480px) {
+  .projects {
+    margin-top: 45px;
+    margin-left: 63px;
+    margin-right: 63px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+    margin-top: 60px;
+    margin-left: 45px;
+  }
 }
 
 .projects__title {
@@ -382,6 +610,36 @@ textarea {
   .projects__title {
     font-size: 24px;
     line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects__list {
+    margin-top: 3px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects__list {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .projects__item {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects__item {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects__item {
+    margin-top: 30px;
   }
 }
 
@@ -419,6 +677,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .projects__text {
+    padding-top: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -426,6 +685,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .projects__text {
+    padding-top: 7px;
     font-size: 11px;
     line-height: 15px;
   }
@@ -433,6 +693,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .projects__text {
+    padding-top: 15px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -441,6 +702,28 @@ textarea {
 .work {
   font-family: Montserrat;
   font-style: normal;
+}
+
+@media screen and (min-width: 480px) {
+  .work {
+    margin-top: 45px;
+    margin-left: 63px;
+    margin-right: 63px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .work {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work {
+    margin-top: 60px;
+    margin-left: 45px;
+  }
 }
 
 .work__title {
@@ -476,6 +759,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .work__subtitle {
+    margin-top: 15px;
     font-size: 16px;
     line-height: 17px;
   }
@@ -483,6 +767,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .work__subtitle {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 20px;
   }
@@ -490,6 +775,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .work__subtitle {
+    margin-top: 35px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -502,6 +788,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .work__text {
+    margin-top: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -509,6 +796,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .work__text {
+    margin-top: 7px;
     font-size: 11px;
     line-height: 25px;
   }
@@ -516,6 +804,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .work__text {
+    margin-top: 25px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -528,6 +817,8 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .work__list {
+    margin-top: 10px;
+    margin-left: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -535,13 +826,17 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .work__list {
+    margin-top: 7px;
+    margin-left: 10px;
     font-size: 11px;
-    line-height: 25px;
+    line-height: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .work__list {
+    margin-top: 15px;
+    margin-left: 15px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -550,6 +845,33 @@ textarea {
 .education {
   font-family: Montserrat;
   font-style: normal;
+}
+
+@media screen and (min-width: 480px) {
+  .education {
+    margin-top: 45px;
+    margin-left: 63px;
+  }
+}
+
+@media screen and (max-width: 767.99px) {
+  .education {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .education {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .education {
+    margin-top: 60px;
+    margin-left: 45px;
+  }
 }
 
 .education__title {
@@ -578,6 +900,24 @@ textarea {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .education__title--current {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .education__title--current {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .education__title--current {
+    margin-top: 60px;
+  }
+}
+
 .education__subtitle {
   font-weight: bold;
   color: var(--title-text-color);
@@ -585,6 +925,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .education__subtitle {
+    margin-top: 15px;
     font-size: 16px;
     line-height: 17px;
   }
@@ -592,6 +933,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .education__subtitle {
+    margin-top: 17px;
     font-size: 12px;
     line-height: 20px;
   }
@@ -599,6 +941,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .education__subtitle {
+    margin-top: 35px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -611,6 +954,7 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .education__text {
+    margin-top: 10px;
     font-size: 15px;
     line-height: 17px;
   }
@@ -618,13 +962,15 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .education__text {
+    margin-top: 7px;
     font-size: 11px;
-    line-height: 25px;
+    line-height: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .education__text {
+    margin-top: 15px;
     font-size: 19px;
     line-height: 25px;
   }
@@ -637,12 +983,20 @@ textarea {
 @media screen and (min-width: 480px) {
   .aside {
     max-width: 480px;
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 767.99px) {
+  .aside {
+    border-bottom: 5px solid var(--title-text-color);
   }
 }
 
 @media screen and (min-width: 768px) {
   .aside {
     min-width: 310px;
+    border-right: 5px solid var(--title-text-color);
   }
 }
 
@@ -655,7 +1009,7 @@ textarea {
 @media screen and (min-width: 480px) {
   .image {
     border-bottom: 5px solid var(--title-text-color);
-    padding: 65px;
+    padding: 50px;
   }
 }
 
