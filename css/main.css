@@ -1032,7 +1032,6 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   padding: 48px 83px 48px 40px;
-  margin-left: 15px;
   background-color: var(--bg-title-text-color);
   font-family: Montserrat;
   font-style: normal;
@@ -1049,9 +1048,9 @@ textarea {
 .mobile-menu__button {
   background-color: transparent;
   border: none;
-  color: var(--accent-color);
+  color: var(--title-text-color);
   position: absolute;
-  right: 15px;
+  right: 55px;
   top: 10px;
   z-index: 15;
   width: 40px;
@@ -1066,8 +1065,8 @@ textarea {
   }
 }
 
-.mobile-menu__button:hover {
-  color: var(--title-text-color);
+.mobile-menu__button.is-open {
+  position: fixed;
 }
 
 .mobile-menu__icon-menu {
