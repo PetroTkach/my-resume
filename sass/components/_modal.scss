@@ -55,11 +55,11 @@
 }
 
 .mobile-menu__icon-menu {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .mobile-menu__icon-close {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .is-open .mobile-menu__icon-menu {
